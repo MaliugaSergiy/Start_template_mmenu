@@ -1,0 +1,133 @@
+$coral: #DA2919;
+$orange: #FD8228;
+$orangeP: #C97A41;
+$darkBlue: #082F54;
+$grey: #6E6E6E;
+$tr: transparent;
+$orangeH: #FA6F32;
+$red: #E30413;
+$rosa: #E64349;
+$darkGrey: #37383D;
+$lightGrey: #F9F9F9;
+$white: #FFF;
+$tr: transparent;
+$light_blue: #F1F4FA;
+//
+$main_red: #CD0021;
+$main_red_hover: #1E221D;
+$main_gold: #C39F76;
+$main_dark: #1E221D;
+$main_black: #000;
+$main_gray:#FAF9F9;
+$main_gray2:rgb(236, 233, 230);
+$main_white: #FFF;
+$main_placeholder: #a6a6a6;
+$main_formBack: #F2F0ED;
+
+
+
+* {
+	outline: none;
+}
+
+::selection {
+	background: transparentize($main_gold, 0.5);
+}
+
+
+body {
+	color: $darkGrey;
+	overflow-x: hidden;
+}
+
+
+
+a {
+	cursor:  pointer;
+}
+
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+	width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+	height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: $main_gold;
+	border-radius: 0px;
+	border: 2px solid $main_gold;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 0px;
+	background-color: $main_formBack;
+}
+
+
+#mm-blocker {
+	z-index: 999;
+	cursor: pointer;
+}
+
+.sticky:before,
+.sticky:after {
+    content: '';
+    display: table;
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
