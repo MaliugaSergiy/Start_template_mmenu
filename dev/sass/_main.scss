@@ -137,6 +137,33 @@ body {
         }
     }
 }
+//.debug{
+//    @include debug(rgba(0, 0, 0, 0.1), 1px solid #ff0);
+//    z-index: 999999;
+//}
+
+.wra {
+    @include wrapper();
+
+}
+.test_smart_grid {
+    .items {
+        @include row-flex();
+
+        .item {
+            @include  col();
+            @include  size(3);
+            @include  size-md(6);
+            @include  size-sm(12);
+            @include  md(margin-top, 10px);
+            @include  media955(color, red);
+            text-align: center;
+            border: 1px solid red;
+
+
+        }
+    }
+}
 
 /*  */
 
